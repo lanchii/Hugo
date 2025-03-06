@@ -1,0 +1,100 @@
+baseURL = 'https://example.org/'
+languageCode = 'de-de'
+title = 'Maturaball'
+theme = 'Agnes'
+
+
+[params]
+	dateFormat = "Feb 13, 2025" 
+	authorName = "Lana Sekerija"
+	
+[menu]
+	[[menu.main]]
+		Name = "Contact"
+		URL = "#"
+		weight = 1
+	
+	[[menu.main]]
+		Name = "About us"
+		URL = "#"
+		weight = 2
+	
+	[[menu.main]]
+		Name = "FAQ's"
+		URL = "#"
+		weight = 3
+	
+	[[menu.main]]
+		Name = "Support"
+		URL = "#"
+		weight = 4
+		
+		
+[params.content]
+	LeadTitle = "LeoBall"
+	LeadDescription = "LeoBall is a software developed for HTL Leonding to assist in the organization of the school's graduation ball. It streamlines various organizational tasks, helping manage the event efficiently and effectively."
+	ButtonCaption = "Visit Our Software"
+	ButtonURL = "https://it200285.cloud.htl-leonding.ac.at/login"
+
+[[params.feature]]
+	FeatureTitle = "Tommy Neumaier"
+	FeatureDescription = "Tommy is responsible for managing and developing the backend of the Leoball software, including overseeing the entire user management system."
+	FeatureImage = "images/picture-3.jpg"
+
+[[params.feature]]
+	FeatureTitle = "Lana Sekerija"
+	FeatureDescription = "Lana oversees the design and development of the frontend and user interface for the Leoball software, ensuring a seamless and engaging user experience."
+	FeatureImage = "images/picture-1.jpg"
+
+[[params.feature]]
+	FeatureTitle = "Oliver Schatzberger"
+	FeatureDescription = "Oliver is responsible for creating the promotional video and conducting quality assurance, including user testing, for the Leoball software."
+	FeatureImage = "images/picture-4.jpg"
+	
+[[params.feature]]
+	FeatureTitle = "Jana Krenn"
+	FeatureDescription = "Jana is responsible for testing the backend functionality of the Leoball software and creating a comprehensive user manual."
+	FeatureImage = "images/picture-2.jpg"
+	
+
+[[params.pricing]]
+	PricingTitle = "Starter"
+	PricingRate = "27"	
+	ButtonCaption = "Get Early Access"
+ 	ButtonURL = "https://example.com/early-access.html"
+	[[params.pricing.Features]]
+		Description = "Lorem ipsum is common text"
+	[[params.pricing.Features]]
+		Description = "Lorem ipsum is common text"
+	[[params.pricing.Features]]
+		Description = "Lorem ipsum is common text"
+	[[params.pricing.Features]]
+		Description = "Lorem ipsum is common text"	
+
+[[params.pricing]]
+	PricingTitle = "Professional"
+	PricingRate = "97"
+	ButtonCaption = "Get Earlier Access"
+ 	ButtonURL = "https://example.com/earlier-access.html"
+	[[params.pricing.Features]]
+		Description = "Lorem ipsum is common text"
+	[[params.pricing.Features]]
+		Description = "Lorem ipsum is common text"
+	[[params.pricing.Features]]
+		Description = "Lorem ipsum is common text"
+	[[params.pricing.Features]]
+		Description = "Lorem ipsum is common text"		
+	
+[[params.pricing]]
+	PricingTitle = "Business"
+	PricingRate = "147"
+	ButtonCaption = "Get Earliest Access"
+ 	ButtonURL = "https://example.com/earliest-access.html"
+	[[params.pricing.Features]]
+		Description = "Lorem ipsum is common text"
+	[[params.pricing.Features]]
+		Description = "Lorem ipsum is common text"
+	[[params.pricing.Features]]
+		Description = "Lorem ipsum is common text"
+	[[params.pricing.Features]]
+		Description = "Lorem ipsum is common text"	
